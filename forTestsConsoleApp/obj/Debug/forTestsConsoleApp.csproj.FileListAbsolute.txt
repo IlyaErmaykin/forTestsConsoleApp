@@ -1,0 +1,12 @@
+c:\users\lex\documents\visual studio 2015\Projects\forTestsConsoleApp\forTestsConsoleApp\bin\Debug\forTestsConsoleApp.exe.config
+c:\users\lex\documents\visual studio 2015\Projects\forTestsConsoleApp\forTestsConsoleApp\obj\Debug\forTestsConsoleApp.csprojResolveAssemblyReference.cache
+c:\users\lex\documents\visual studio 2015\Projects\forTestsConsoleApp\forTestsConsoleApp\bin\Debug\forTestsConsoleApp.exe
+c:\users\lex\documents\visual studio 2015\Projects\forTestsConsoleApp\forTestsConsoleApp\bin\Debug\forTestsConsoleApp.pdb
+c:\users\lex\documents\visual studio 2015\Projects\forTestsConsoleApp\forTestsConsoleApp\obj\Debug\forTestsConsoleApp.exe
+c:\users\lex\documents\visual studio 2015\Projects\forTestsConsoleApp\forTestsConsoleApp\obj\Debug\forTestsConsoleApp.pdb
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\forTestsConsoleApp\bin\Debug\forTestsConsoleApp.exe.config
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\forTestsConsoleApp\obj\Debug\forTestsConsoleApp.exe
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\forTestsConsoleApp\obj\Debug\forTestsConsoleApp.pdb
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\forTestsConsoleApp\bin\Debug\forTestsConsoleApp.exe
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\forTestsConsoleApp\bin\Debug\forTestsConsoleApp.pdb
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\forTestsConsoleApp\obj\Debug\forTestsConsoleApp.csprojResolveAssemblyReference.cache
