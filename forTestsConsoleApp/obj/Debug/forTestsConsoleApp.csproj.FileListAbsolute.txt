@@ -10,3 +10,6 @@ C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\forTestsConsoleApp
 C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\forTestsConsoleApp\bin\Debug\forTestsConsoleApp.exe
 C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\forTestsConsoleApp\bin\Debug\forTestsConsoleApp.pdb
 C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\forTestsConsoleApp\obj\Debug\forTestsConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\LEX\Documents\Project\forTestsConsoleApp\forTestsConsoleApp\bin\Debug\forTestsConsoleApp.exe.config
+C:\Users\LEX\Documents\Project\forTestsConsoleApp\forTestsConsoleApp\obj\Debug\forTestsConsoleApp.exe
+C:\Users\LEX\Documents\Project\forTestsConsoleApp\forTestsConsoleApp\obj\Debug\forTestsConsoleApp.pdb
