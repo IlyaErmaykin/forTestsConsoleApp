@@ -1,0 +1,6 @@
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\FunWithStrings\bin\Debug\FunWithStrings.exe.config
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\FunWithStrings\bin\Debug\FunWithStrings.exe
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\FunWithStrings\bin\Debug\FunWithStrings.pdb
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\FunWithStrings\obj\Debug\FunWithStrings.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\FunWithStrings\obj\Debug\FunWithStrings.exe
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\FunWithStrings\obj\Debug\FunWithStrings.pdb

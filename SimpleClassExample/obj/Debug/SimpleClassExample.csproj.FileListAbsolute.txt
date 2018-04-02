@@ -1,0 +1,6 @@
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\SimpleClassExample\bin\Debug\SimpleClassExample.exe.config
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\SimpleClassExample\bin\Debug\SimpleClassExample.exe
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\SimpleClassExample\bin\Debug\SimpleClassExample.pdb
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\SimpleClassExample\obj\Debug\SimpleClassExample.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\SimpleClassExample\obj\Debug\SimpleClassExample.exe
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\SimpleClassExample\obj\Debug\SimpleClassExample.pdb
