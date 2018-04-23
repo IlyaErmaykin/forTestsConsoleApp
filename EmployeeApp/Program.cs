@@ -10,6 +10,9 @@ namespace EmployeeApp
     {
         static void Main(string[] args)
         {
+            //Ошибка, невозможно обратиться к закрытым полям объекта;
+            Employee emp = new Employee();
+            //emp.empName = "Marv";
         }
     }
 }
