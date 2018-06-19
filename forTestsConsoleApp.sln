@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeConversions", "TypeConv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeApp", "EmployeeApp\EmployeeApp.csproj", "{3291A650-D12A-4BE1-A7F8-A442CB18B0EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithMethods", "FunWithMethods\FunWithMethods.csproj", "{98054AC1-6845-4F4C-A259-FD4C004AEA3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3291A650-D12A-4BE1-A7F8-A442CB18B0EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3291A650-D12A-4BE1-A7F8-A442CB18B0EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3291A650-D12A-4BE1-A7F8-A442CB18B0EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98054AC1-6845-4F4C-A259-FD4C004AEA3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98054AC1-6845-4F4C-A259-FD4C004AEA3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98054AC1-6845-4F4C-A259-FD4C004AEA3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98054AC1-6845-4F4C-A259-FD4C004AEA3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,6 @@
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\FunWithMethods\bin\Debug\FunWithMethods.exe.config
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\FunWithMethods\bin\Debug\FunWithMethods.exe
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\FunWithMethods\bin\Debug\FunWithMethods.pdb
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\FunWithMethods\obj\Debug\FunWithMethods.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\FunWithMethods\obj\Debug\FunWithMethods.exe
+C:\Users\Алексей\Documents\Projects\forTestsConsoleApp\FunWithMethods\obj\Debug\FunWithMethods.pdb
