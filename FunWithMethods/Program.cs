@@ -8,6 +8,14 @@ namespace FunWithMethods
 {
     class Program
     {
+        //Ссылочные параметры
+        public static void SwapStrings(ref string s1, ref string s2)
+        {
+            string tempStr = s1;
+            s1 = s2;
+            s2 = tempStr;
+        }
+        
         //Возврат множества выходных методов
         static void FillTheseValues(out int a, out string b, out bool c)
         {
@@ -41,8 +49,16 @@ namespace FunWithMethods
 
             Console.WriteLine("int is: {0}", i);
             Console.WriteLine("String is: {0}", str);
-            Console.WriteLine("Boolean is: {0}", b);
+            Console.WriteLine("Boolean is: {0} \n", b);
 
+            //Ссылочны параметры
+            string str1 = "Flip";
+            string str2 = "Flop";
+            
+            Console.WriteLine("Before: {0}, {1}", str1, str2);
+            SwapStrings(ref str1, ref str2);
+            Console.WriteLine("After: {0}, {1}", str1, str2);
+            
             Console.ReadKey();
         }
     }
