@@ -8,15 +8,10 @@ namespace FunWithMethods
 {
     class Program
     {
-        // По умолчанию аргументы передаются по значению
-        static int Add(int x, int y)
+        // Значениея выходных параметров должны быть установлены вызвваемым методом.
+        static int Add(int x, int y, out int ans)
         {
-            int ans = x + y;
-
-            //Вызывающий код не увидит эти изменения 
-            // т.к. изменяется копия исходных данных.
-            x = 10000;
-            y = 88888;
+            ans = x + y;
 
             return ans;
         }
@@ -25,13 +20,14 @@ namespace FunWithMethods
         {
             Console.WriteLine("*****Fun with Method *****\n");
 
-            //Передать две переменных по значению
-            int x = 9, y = 10;
-            Console.WriteLine("Before call: X: {0}, Y: {1}", x, y);
-            Console.WriteLine("Answer is: {0}", Add(x, y));
-            Console.WriteLine("After call: X: {0}, Y: {1}", x, y);
+            // Присваиваем начальные значения локальныи переменным,
+            // используеммым как выходные параметры, не обязательно,
+            // при условии, что в таком качестве они используются первый раз.
+            int ans;
+            Add(90, 90, out ans);
+            Console.WriteLine("90 + 90 = {0}", ans);
 
-            Console.Read();
+            Console.ReadKey();
         }
     }
 }
