@@ -53,6 +53,19 @@ namespace FunWithMethods
             return (sum / values.Length);
         }
 
+        // Определение необязательных параметров
+        static void EnterLogData(string message, string owner = "Programmer")
+        // Значение, присваемое необязательному параметру должно быть изместно во время компиляции
+        // и не может вычисляться во время выполнения (на этапе компиляции будет сообщене об ошибке)
+        //static void EnterLogData(string message, string owner = "Programmer", DateTime timeStamp = DateTime.Now)
+        {
+            Console.Beep();
+            Console.WriteLine("Error: {0}", message);
+            Console.WriteLine("Owner of Error: {0}", owner);
+            // Сообщение об ошибке
+            //Console.WriteLine("Time of Error: {0}", timeStamp);
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("*****Fun with Method *****\n");
@@ -81,17 +94,22 @@ namespace FunWithMethods
             //Console.WriteLine("After: {0}, {1}", str1, str2);
 
             // Передать разделяемый запятыми список значений double...
-            double average;
-            average = CalculateAverage(4.0, 3.2, 5.7, 64.22, 87.2);
-            Console.WriteLine("Average of data is: {0}", average);
+            //double average;
+            //average = CalculateAverage(4.0, 3.2, 5.7, 64.22, 87.2);
+            //Console.WriteLine("Average of data is: {0}", average);
 
-            // ...или передать масссив значений double
-            double[] data = { 4.0, 3.2, 5.7 };
-            average = CalculateAverage(data);
-            Console.WriteLine("Average of data is: {0}", average);
+            //// ...или передать масссив значений double
+            //double[] data = { 4.0, 3.2, 5.7 };
+            //average = CalculateAverage(data);
+            //Console.WriteLine("Average of data is: {0}", average);
 
-            //Средний из 0 ровно 0!
-            Console.WriteLine("Average of data is: {0}", CalculateAverage());
+            ////Средний из 0 ровно 0!
+            //Console.WriteLine("Average of data is: {0}", CalculateAverage());
+
+            // Определение необязательных параметров
+            //Вызов EnterLogData двумя способами
+            EnterLogData("Oh no! Grid can't find data");
+            EnterLogData("Oh no! I can't find the payroll data", "CFO");
             
             Console.ReadKey();
         }
