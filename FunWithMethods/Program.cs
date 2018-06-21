@@ -66,6 +66,24 @@ namespace FunWithMethods
             //Console.WriteLine("Time of Error: {0}", timeStamp);
         }
 
+        // Вызов меотодов с использованием именованных параметров
+        static void DisplayFrancyMessage(ConsoleColor textColor, ConsoleColor backgroundColor, string message)
+        { 
+            // Сохранить старые цвета с целью их восстановлния после вывода сообщения
+            ConsoleColor oldTextColor = Console.ForegroundColor;
+            ConsoleColor oldbackgroundColor = Console.BackgroundColor;
+
+            // Устновить новые цвета и вывести сообщение
+            Console.ForegroundColor = textColor;
+            Console.BackgroundColor = backgroundColor;
+
+            Console.WriteLine(message);
+
+            //Восстановить предыдущие цвета
+            Console.ForegroundColor = oldTextColor;
+            Console.BackgroundColor = oldbackgroundColor;
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("*****Fun with Method *****\n");
@@ -106,12 +124,20 @@ namespace FunWithMethods
             ////Средний из 0 ровно 0!
             //Console.WriteLine("Average of data is: {0}", CalculateAverage());
 
-            // Определение необязательных параметров
-            //Вызов EnterLogData двумя способами
-            EnterLogData("Oh no! Grid can't find data");
-            EnterLogData("Oh no! I can't find the payroll data", "CFO");
+            //// Определение необязательных параметров
+            ////Вызов EnterLogData двумя способами
+            //EnterLogData("Oh no! Grid can't find data");
+            //EnterLogData("Oh no! I can't find the payroll data", "CFO");
+
+            DisplayFrancyMessage(message: "Wow! Very Fancy indeed!",
+                textColor: ConsoleColor.DarkRed,
+                backgroundColor: ConsoleColor.White);
+
+            DisplayFrancyMessage(backgroundColor: ConsoleColor.Green,
+                message: "Testing...",
+                textColor: ConsoleColor.DarkBlue);
             
-            Console.ReadKey();
+            Console.ReadKey();  
         }
     }
 }
