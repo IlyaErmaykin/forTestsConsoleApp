@@ -11,6 +11,26 @@ namespace FunWithArrays
     /// </summary>
     class Program
     {
+        static void ArrayInitialization()
+        {
+            Console.WriteLine("=> Array Initialization");
+
+            // Синтаксис инициализации массива с использованием ключевого слова new
+            string[] stringArray = new string[] { "one", "two", "three" };
+            Console.WriteLine("stringArray has {0} elements", stringArray.Length);
+
+            // Синтаксис инициализации массива без ипользования ключевого слова new
+            bool[] boolArray = { false, false, true };
+            Console.WriteLine("boolArray has {0} elements", boolArray.Length);
+
+            //Синтаксис инициализации массива с использованием ключевого слова new и размера
+            int[] intArray = new int[4] { 20, 22, 23, 0 };
+            Console.WriteLine("intArray has {0} elements", intArray.Length);
+
+            Console.WriteLine();
+
+        }
+
         /// <summary>
         /// Создание массива с элементами типа int
         /// </summary>
@@ -42,8 +62,9 @@ namespace FunWithArrays
         static void Main(string[] args)
         {
             Console.WriteLine("***** Fun with Arrys *****");
-            SipleIntArray();
-            SipleStringArray();
+            //SipleIntArray();
+            //SipleStringArray();
+            ArrayInitialization();
 
             Console.ReadKey();
         }
