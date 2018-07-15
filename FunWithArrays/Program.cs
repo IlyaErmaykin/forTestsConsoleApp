@@ -11,6 +11,27 @@ namespace FunWithArrays
     /// </summary>
     class Program
     {
+        static void DeclareImplicitArrays()
+        {
+            Console.WriteLine("=> Implicit Array Initialization.");
+
+            //а -  на самом деле int[]
+            var a = new[] { 1, 10, 100, 1000 };
+            Console.WriteLine("a is a: {0}", a.ToString());
+
+            //b - на самом деле double[]
+            var b = new[] { 1, 1.5, 2, 2.5 };
+            Console.WriteLine("b is a:{0}", b.ToString());
+
+            //c - на самом деле string[]
+            var c = new[] { "hello", null, "world" };
+            Console.WriteLine("c is a:{0}", c.ToString());
+            Console.WriteLine();
+        }
+        
+        /// <summary>
+        /// Разбор синтаксиса иницмализации массивов 
+        /// </summary>
         static void ArrayInitialization()
         {
             Console.WriteLine("=> Array Initialization");
@@ -64,7 +85,8 @@ namespace FunWithArrays
             Console.WriteLine("***** Fun with Arrys *****");
             //SipleIntArray();
             //SipleStringArray();
-            ArrayInitialization();
+            //ArrayInitialization();
+            DeclareImplicitArrays();
 
             Console.ReadKey();
         }
