@@ -11,6 +11,26 @@ namespace FunWithArrays
     /// </summary>
     class Program
     {
+        static void ArraOfAbjects()
+        {
+            Console.WriteLine("=> Array of objrct");
+
+            // Массив объектов может содержать все что угодно
+             object[] myObjects = new object[4];
+            
+            myObjects[0] = 10;
+            myObjects[1] = false;
+            myObjects[2] = new DateTime(1969, 3, 24);
+            myObjects[3] = "Form & Void";
+
+            foreach (object obj in myObjects)
+            { 
+                //Вывести тип и значение каждооо элемента в массиве
+                Console.WriteLine("Type: {0}, Value: {1}", obj.GetType(), obj);
+            }
+            Console.WriteLine();
+        }
+
         static void DeclareImplicitArrays()
         {
             Console.WriteLine("=> Implicit Array Initialization.");
@@ -86,7 +106,8 @@ namespace FunWithArrays
             //SipleIntArray();
             //SipleStringArray();
             //ArrayInitialization();
-            DeclareImplicitArrays();
+            //DeclareImplicitArrays();
+            ArraOfAbjects();
 
             Console.ReadKey();
         }
